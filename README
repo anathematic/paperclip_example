@@ -12,6 +12,12 @@ May need to update to edge Rails (using Rails 2.3.1 as of this writing)
 3. rake db:create
 4. rake db:migrate
 
+Other Notes
+================
+
+On some Mac Os X systems you're going to need to define the imagemagick path, on my Leopard box w/ Macports I used the following:
+Paperclip.options[:image_magick_path] = '/opt/local/bin'
+
 Contact Information
 ================
 
