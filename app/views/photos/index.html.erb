@@ -11,7 +11,7 @@
   <tr>
     <td><%=h photo.name %></td>
     <td><%=h photo.caption %></td>
-	<td><%= image_tag photo.image.url(:thumbnail) %></td>
+	<td><%= image_tag photo.image.url(:thumb) %></td>
     <td><%= link_to 'Show', photo %></td>
     <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
     <td><%= link_to 'Destroy', photo, :confirm => 'Are you sure?', :method => :delete %></td>
